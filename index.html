@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>One piece</title>
+</head>
+<body>
+    <div class="container">
+        <form class="form">
+            <div class="heading">
+                <h1>One piece</h1>
+            </div>
+            <div class="wrap">
+                <div class="f1">
+                    <label>Ник</label>
+                    <input type="text" />
+                    <span class="focus-input"></span>
+                </div>
+                <div class="f2">
+                    <label>Email</label>
+                    <input type="text" />
+                    <span class="focus-input"></span>
+                </div>
+            </div>
+            <div class="wrap">
+                <div class="f1 f0">
+                    <label>Дата рождения</label>
+                    <input type="date" />
+                    <span class="focus-input"></span>
+                </div>
+                <div class="f2 f0">
+                    <label>Пол</label>
+                    <div class="custom-select">
+                        <select name="gender">
+                            <option value="1">Мужик</option>
+                            <option value="2">Баба</option>
+                            <option value="3">Оптимус Прайм</option>
+                        </select>
+                        <span class="custom-arrow"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="wrap2 f0">
+                <label>Страна</label>
+                <div class="custom-select">
+                    <select name="sushi">
+                        <option value="1">Казахстан</option>
+                        <option value="2">Россия</option>
+                        <option value="3">Италия</option>
+                        <option value="4">Китай</option>
+                        <option value="5">Семей</option>
+                    </select>
+                    <span class="custom-arrow"></span>
+                </div>
+            </div>
+            <div class="wrap">
+                <div class="f1 f3">
+                    <label>Тип героя</label>
+                    <div class="custom-select">
+                        <select name="sushi">
+                            <option value="1" class="select">Капитан</option>
+                            <option value="2" class="select">Мечник</option>
+                            <option value="3" class="select">Навигатор</option>
+                            <option value="4" class="select">Иследователь</option>
+                            <option value="5" class="select">Музыкант</option>
+                        </select>
+                        <span class="custom-arrow"></span>
+                    </div>
+                    
+                    <span class="focus-input"></span>
+                </div>
+                <div class="f2 f4">
+                    <label>Игровой опыт</label>
+                    <input type="checkbox" />
+                </div>
+            </div>
+
+            <button class="btn">Регистрация</button>
+            <img src="img/icon/play.svg" id="play">
+            <audio id="mySong">
+                <source src="music/Nathan Evans - Wellerman (Sea Shanty).mp3" type="audio/mpeg">
+            </audio>
+        </form>
+
+        <div class="img-slider">
+            <div class="slide active">
+                <img src="img/luffy.jpg">
+                <div class="info bottom">
+                    <h2>Монки Д. Луффи</h2>
+                    <p>Он верит, что став Королём Пиратов, он станет самым свободным человеком в мире.</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="img/marimo.jpg">
+                <div class="info top">
+                    <h2>Ророноа Зоро</h2>
+                    <p>
+                        Ророноа Зоро был первым, кто присоединился к Пиратам Соломенной Шляпы и является одним из четырёх сильнейших членов команды, 
+                        а его мечта — стать величайшим мечником в мире.
+                    </p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="img/nami.jpg">
+                <div class="info bottom">
+                    <h2>Нами</h2>
+                    <p>
+                        Нами — пират и навигатор в команде пиратов Соломенной Шляпы. 
+                        Она официально стала третьим членом экипажа и вторым присоединившимся к команде после победы Луффи над Арлонгом
+                    </p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="img/robin.jpg">
+                <div class="info top">
+                    <h2>Нико Робин</h2>
+                    <p>
+                        на седьмой член команды, шестой, кто присоединился к Луффи, и второй, после Нами, вернувшийся в команду после ухода 
+                        из неё (она сделала это ближе к концу арки Эниес Лобби), а также первый член, когда-то бывший антагонистом.
+                    </p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="img/brook.jpg">
+                <div class="info top">
+                    <h2>Брук</h2>
+                    <p>
+                        "Соул Кинг" Брук — пират и музыкант, член команды пиратов Соломенной Шляпы. Он живой скелет, с которым Соломенные Шляпы встретились на борту корабля-призрака, дрейфующего во Флорианском Треугольнике.
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/music.js"></script>
+</body>
+</html>
